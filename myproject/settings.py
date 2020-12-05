@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'ck2h*9ft%go#1ru$m$8nw$5=m5ka8fk_s1x^#a-mc%($8pn(27'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 # if true home will be under_cont.html
 MAINTENANCE = True
