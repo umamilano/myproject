@@ -133,7 +133,7 @@ USE_TZ = True
 #
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR,'static'),
-    '/home/haerul/myproject/myproject/static',
+    '/var/www/html/myproject/static',
 )
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR,'static')
+STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
